@@ -63,7 +63,6 @@ function playAudio(path) {
 }
 
 // FULLSCREEN
-
 const openFullscreen = document.querySelector('.openfullscreen');
 
 openFullscreen.addEventListener('click', () => {
@@ -77,7 +76,6 @@ openFullscreen.addEventListener('click', () => {
 });
 
 // BUTTONS
-
 const pianoKeys = document.querySelectorAll('.piano-key');
 const btnNotes = document.querySelector('.btn-notes');
 const btnLetters = document.querySelector('.btn-letters');
